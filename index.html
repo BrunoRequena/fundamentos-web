@@ -5,29 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
-    <ul>
+    <ul id="menu">
         <li>
-        <a href="index.html">Home</a>
+            <a href="index.html">Home</a>
         </li>
         <li>
             <a href="contato.html">Contato</a>
         </li>
     </ul>
 
-    <h1>Primeira Criação</h1>
+<h1 class="center">Primeira Criação</h1>
+    <div class="container">
+        <div class="p-30">    
+            <p class="justify">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint distinctio odit 
+            officia voluptates voluptatibus, dolores ex ipsa quod ullam dolorem non nisi, 
+            quis magnam, architecto error maiores facere? Accusantium, reprehenderit.
+            </p>
+            <p class="justify">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint distinctio odit 
+            officia voluptates voluptatibus, dolores ex ipsa quod ullam dolorem non nisi, 
+            quis magnam, architecto error maiores facere? Accusantium, reprehenderit.
+            </p>
+        </div>
+        <img class="br-50 wh-300 p-30" src="assets/eu.jpg" alt="Foto do criador do conteudo">
+    </div>
 
-    <h2>Texto Aleatorio</h2>
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint distinctio odit 
-        officia voluptates voluptatibus, dolores ex ipsa quod ullam dolorem non nisi, 
-        quis magnam, architecto error maiores facere? Accusantium, reprehenderit.
-    </p>
-    <img src="assets/eu.jpg" alt="Foto do criador do conteudo">
-
-    <h2>Meu video favorio</h2>
+<h2 class="center">Meu video favorio</h2>
+<div class="container mb-50">
     <iframe width="560" 
     height="315" 
     src="https://www.youtube.com/embed/xieNgL1-9wI" 
@@ -35,5 +43,26 @@
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen></iframe>
+</div>  
+
+<footer>
+
+    <div class="container">
+        <a href="https://www.instagram.com/bruno_req/">
+            <img class="tm-social p-30" src="assets/instagram.png" alt="Logo do instagram">
+        </a>
+        <a href="https://www.linkedin.com/in/bruno-requena-2795411a4/">
+            <img class="tm-social p-30" src="assets/linkedin.png" alt="Logo do linkedin">
+        </a>
+        <a href="https://github.com/BrunoRequena">
+            <img class="tm-social p-30" src="assets/github.png" alt="Logo do GitHub">
+        </a>
+    </div>
+
+    <p class="center">
+      Todos os direitos reservados:  Bruno Requena &copy;
+    </p> 
+</footer>
+
 </body>
 </html>
